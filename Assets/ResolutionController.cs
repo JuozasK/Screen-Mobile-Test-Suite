@@ -23,8 +23,8 @@ public class ResolutionController : MonoBehaviour
         payload += $"Screen.Width = {Screen.width} \n";
         payload += $"Screen.currentResolution = {Screen.currentResolution} \n";
         payload += $"Screen.safeArea yMin,xMin : yMax,xMax  = {Screen.safeArea.yMin},{Screen.safeArea.xMin} : {Screen.safeArea.yMax},{Screen.safeArea.xMax} \n";
-        payload += $"Display.systemHeight = {Display.displays[0].systemHeight} \n";
-        payload += $"Display.systemWidth = {Display.displays[0].systemWidth} \n";
+        payload += $"Display.systemHeight = {Display.main.systemHeight} \n";
+        payload += $"Display.systemWidth = {Display.main.systemWidth} \n";
         payload += $"Display.renderingHeight = {Display.displays[0].renderingHeight} \n";
         payload += $"Display.renderingWidth = {Display.displays[0].renderingWidth} \n";
         

@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Tests/CanSetResolutions/CanSetResolutions.unity
+    guid: c94d4369362ae44a29100ffea22ce31b
   m_configObjects: {}
